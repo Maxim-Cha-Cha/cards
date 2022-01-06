@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
 }
-body{
+.body{
   color: white;
   font-size: 25px;
 }
-div{
+.div{
   display: inline-block
 }
 .div1 {
@@ -50,14 +50,14 @@ div{
 right: -90px;
 bottom:-140px;
 }
-h1, p{
+.h1, .text{
   padding-left: 40px;
 }
-p{
+.text{
   font-size: 30px;
   font-weight: bold;
 }
-img{
+.img{
   position: absolute;
   right:13% ;
   top: 20%;
