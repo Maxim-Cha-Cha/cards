@@ -13,12 +13,20 @@ div{
   width: 600px;
   height: 300px;
   border-radius: 3%;
+  position: relative;
+}
+.background1{
   background: linear-gradient(
     90deg,
     rgba(254, 190, 154, 0.9640231092436975) 0%,
     rgba(255, 130, 151, 1) 100%
   );
-  position: relative;
+}
+.background2{
+  background: linear-gradient(90deg, rgba(138,200,245,1) 0%, rgba(15,140,224,0.8407738095238095) 100%);
+}
+.background3{
+  background: linear-gradient(90deg, rgba(124,217,209,1) 0%, rgba(9,208,185,0.958420868347339) 100%);
 }
 .figure {
   display: block;
@@ -54,18 +62,3 @@ img{
   right:13% ;
   top: 20%;
 }
-.div2 {
-  border: 1px solid white;
-  width: 600px;
-  height: 300px;
-  border-radius: 3%;
-  background: linear-gradient(90deg, rgba(138,200,245,1) 0%, rgba(15,140,224,0.8407738095238095) 100%);
-  position: relative;}
-  .div3 {
-    border: 1px solid white;
-    width: 600px;
-    height: 300px;
-    border-radius: 3%;
- background: linear-gradient(90deg, rgba(124,217,209,1) 0%, rgba(9,208,185,0.958420868347339) 100%);
-    position: relative;}
-    
