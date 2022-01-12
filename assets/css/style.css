@@ -1,19 +1,17 @@
 * {
   box-sizing: border-box;
 }
-.body{
+.conteiner{
   color: white;
   font-size: 25px;
 }
-.div{
-  display: inline-block
-}
-.div1 {
-  border: 1px solid white;
+.cards {
   width: 600px;
   height: 300px;
   border-radius: 3%;
   position: relative;
+  overflow: hidden;
+  display: inline-block
 }
 .background1{
   background: linear-gradient(
